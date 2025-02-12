@@ -1,4 +1,5 @@
 module.exports = {
+
   printWidth: 120,
   tabWidth: 2,
   useTabs: false,
@@ -14,3 +15,4 @@ module.exports = {
   vueIndentScriptAndStyle: false,
   endOfLine: "auto",
 };
+

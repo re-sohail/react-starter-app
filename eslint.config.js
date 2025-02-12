@@ -13,7 +13,8 @@ export default [
   // React recommended rules
   {
     files: ["src/**/*.{js,jsx}"],
-    ignores: ["**/*.config.js"],
+    ignores: ["node_modules/", "build/", "dist/", "public/", "**/*.test.js"],
+
     plugins: {
       react: reactPlugin,
       "react-refresh": reactRefresh,
