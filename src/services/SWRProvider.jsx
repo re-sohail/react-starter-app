@@ -6,7 +6,7 @@ function SWRProvider({ children }) {
     <SWRConfig
       value={{
         fetcher,
-        revalidateOnFocus: process.env.NODE_ENV !== 'production',
+        revalidateOnFocus: import.meta.env.VITE_APP_NAME !== 'production',
         errorRetryCount: 3,
         dedupingInterval: 10000,
         onError: err => console.error('SWR Error:', err),
