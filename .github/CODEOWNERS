@@ -1,0 +1,19 @@
+# Core application code
+
+/src/\*\* @frontend-leads @yourorg/react-team
+
+# Infrastructure/CI configurations
+
+.github/workflows/ @devops-team
+.github/ISSUE_TEMPLATE/ @frontend-leads @tech-leads
+
+# Security-related files
+
+SECURITY.md @security-team
+_.config._ @frontend-leads @devops-team
+
+# Root configuration files
+
+package.json @frontend-leads @devops-team
+vite.config.js @frontend-leads
+tsconfig.json @frontend-leads
